@@ -1,0 +1,11 @@
+.header-container{
+    height: 64px;
+    width: 100vw;
+    position: fixed;
+    background-color: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.158);
+    top: 0;
+    z-index: 2;
+    grid-template-columns: auto 200px 32px;
+    grid-template-areas: ". nav .";
+}
