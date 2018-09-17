@@ -1,6 +1,8 @@
 import React from 'react';
 
-import './Nav.css';
+/** Local CSS */
+import './Nav.component.css';
+
 
 class Nav extends React.Component {
     render = () => {
@@ -15,5 +17,6 @@ class Nav extends React.Component {
         </div>
     }
 }
+
 
 export default Nav;

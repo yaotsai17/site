@@ -1,7 +1,11 @@
 import React from 'react';
 
-import './Header.css';
-import Nav from './Nav/Nav';
+/** Local CSS */
+import './Header.component.css';
+
+/** Other Custom Component */
+import Nav from './Nav/Nav.component';
+
 
 class Header extends React.Component {
     render = () => {
@@ -10,5 +14,6 @@ class Header extends React.Component {
         </div>
     }
 }
+
 
 export default Header;

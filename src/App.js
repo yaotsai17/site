@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
+
+/** Local CSS */
 import './App.css';
-import Header from './component/header/Header';
+
+/** Other Custom Component */
+import LandingSplash from './component/LandingSplash/LandingSplash.component';
+import Header from './component/Header/Header.component';
+
 
 class App extends Component {
-  render() {
-    return (
-      <div className="app-root-container">
-        <Header />
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="app-root-container">
+                <Header />
+                <LandingSplash />
+            </div>
+        );
+    }
 }
+
 
 export default App;
