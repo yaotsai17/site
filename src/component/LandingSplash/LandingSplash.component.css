@@ -7,11 +7,12 @@
     flex-wrap: wrap;
     width: 100%;
     height: calc(100vh - 64px);
+    background: linear-gradient(90deg, #1d1133, #353535);
 }
 
 .intro-image {
-    margin-left: 10vw;
     align-self: center;
+    flex-basis: 30%;
 }
 
 .intro-text {
@@ -19,15 +20,28 @@
     white-space: nowrap;
     min-width: 200px;
     align-self: center;
+    flex-basis: 30%;
+    font-family: sans-serif;
 }
 
-@media only screen and (min-width: 500px) {
-    .landing-splash-container {
-        background-position: 10px 10px;
-    }
+.intro-text-title {
+    margin-bottom: 1px;
+    font-size: 48px;
+}
 
-    .intro-section {
-        top: 300px;
-        left: 600px;
-    }
+.intro-text-subtitle {
+    margin-top: 1px;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-bottom: 48px;
+    font-weight: 100;
+    color: #ffffffaa
+}
+
+.intro-text-content {
+    font-weight: 400;
+}
+
+.intro-text-content > li {
+    margin-top: 10px;
 }

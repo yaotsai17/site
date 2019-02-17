@@ -13,8 +13,13 @@ class LandingSplash extends Component {
                     <img src={IntroImage} alt="Yao's name in Chinese"></img>
                 </div>
                 <div className="intro-text">
-                    hi man<br />
-                    yes
+                    <h1 className="intro-text-title">Yao</h1><h4 className="intro-text-subtitle"> /you/ <i>noun</i></h4>
+                    <ol className="intro-text-content">
+                        <li>sunny, having cloudless shines.</li> 
+                        <li>intelligent and quick-witted.</li>
+                        <li>rhymes with KAPOW, WOW, meow.</li>  
+                        <li>given name from my considering parents. </li> 
+                    </ol><br />
                 </div>
             </div>
         );
