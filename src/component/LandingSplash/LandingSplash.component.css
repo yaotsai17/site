@@ -1,16 +1,24 @@
 .landing-splash-container {
-    background: transparent url('../../img/bg.svg') no-repeat -65px 10px scroll;
-    height: 100vh;
     min-width: 600px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100vh - 64px);
 }
 
-.intro-section {
+.intro-image {
+    margin-left: 10vw;
+    align-self: center;
+}
+
+.intro-text {
     color: white;
-    position: absolute;
-    top: 300px;
-    left: 500px;
     white-space: nowrap;
     min-width: 200px;
+    align-self: center;
 }
 
 @media only screen and (min-width: 500px) {
