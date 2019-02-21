@@ -15,7 +15,7 @@ class LandingSplash extends Component {
                 <div className="intro-text">
                     <h1 className="intro-text-title">Yao</h1><h4 className="intro-text-subtitle"> /you/ <i>noun</i></h4>
                     <ol className="intro-text-content">
-                        <li>sunny, having cloudless shines.</li> 
+                        <li>bright, sunny, shines.</li> 
                         <li>intelligent and quick-witted.</li>
                         <li>rhymes with KAPOW, WOW, meow.</li>  
                         <li>given name from my considering parents. </li> 
