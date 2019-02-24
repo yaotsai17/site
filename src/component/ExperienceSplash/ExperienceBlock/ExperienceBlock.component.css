@@ -1,0 +1,69 @@
+.experience-block-container {
+    background: white;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 4px 4px #EEEEEE;
+    min-width: 650px;
+}
+
+.experience-block-image {
+    width: 15vw;
+    min-width: 180px;
+    height: 120px;
+}
+
+.experience-block-container .company-name {
+    font-size: 45px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 800;
+}
+
+.experience-block-container .company-description {
+    color: #666666;
+    margin-top: 12px;
+}
+
+.experience-block-header {
+    border-bottom: 1px solid #bbbbbb;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.experience-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    flex-wrap: wrap;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.solution-container {
+    margin-right: 24px;
+    align-self: flex-start;
+    margin-left: 40px;
+}
+
+.problem-container {
+    align-self: flex-start;
+    min-width: 620px;
+}
+
+.solution-label {
+    font-weight: 200;
+    color: #444444;
+}
+
+.problem-label {
+    font-weight: 200;
+    color: #444444;
+}
+
+.challenge-item {
+    margin-top: 24px;
+}

@@ -6,13 +6,15 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
-    height: calc(100vh - 64px);
+    min-height: calc(100vh - 64px);
     background: linear-gradient(90deg, #1d1133, #353535);
 }
 
 .intro-image {
     align-self: center;
     flex-basis: 30%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .intro-text {
@@ -22,6 +24,7 @@
     align-self: center;
     flex-basis: 30%;
     font-family: sans-serif;
+    margin-bottom: 10vh;
 }
 
 .intro-text-title {

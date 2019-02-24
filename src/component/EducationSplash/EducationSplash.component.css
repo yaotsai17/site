@@ -1,0 +1,35 @@
+.education-splash-container {
+    background: #212121;
+    padding: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.education-text-container {
+    align-self: center;
+}
+
+.education-title {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 32px;
+}
+
+.education-details {
+    margin-top: 4px;
+    color: #cccccc;
+}
+
+.course-list-container {
+    margin-top: 24px;
+}
+
+.course-list {
+    margin-top: 6px;
+}
+
+.course-list > li {
+    margin-top: 10px;
+}
