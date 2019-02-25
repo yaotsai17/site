@@ -5,7 +5,6 @@
     margin-left: 2%;
     margin-right: 2%;
     box-shadow: 4px 4px #EEEEEE;
-    min-width: 650px;
 }
 
 .experience-block-image {
@@ -36,22 +35,23 @@
 .experience-details-container {
     display: flex;
     flex-direction: row;
-    justify-content: auto;
+    justify-content: space-between;
     flex-wrap: wrap;
+    
     padding-left: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
 .solution-container {
-    margin-right: 24px;
     align-self: flex-start;
-    margin-left: 40px;
+    flex-grow: 1;
 }
 
 .problem-container {
     align-self: flex-start;
-    min-width: 620px;
+    flex-grow: 1;
+    margin-right: 12px;
 }
 
 .solution-label {

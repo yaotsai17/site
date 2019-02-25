@@ -6,16 +6,6 @@ import './ExperienceBlock.component.css';
 
 
 class ExpereinceBlock extends Component {
-    // Each block will have a prop of image source
-    // company description
-    // original problem
-    // solution developed string
-    // solution developed gif or youtube
-    // any challenges? 
-
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         const challengesList = this.props.experienceDetail.challenges.split(". ")
@@ -24,8 +14,8 @@ class ExpereinceBlock extends Component {
             });
 
         const youtubeOption = {
-            width: '384',
-            height: '216',
+            width: '272',
+            height: '153',
             playerVars: { // https://developers.google.com/youtube/player_parameters
                 loop: 1,
                 autoplay: 1,
@@ -48,9 +38,11 @@ class ExpereinceBlock extends Component {
                 </div>
                 <div className="solution-container">
                     <h3 className="solution-label">Solution Demo</h3>
+                    <div className="youtube-player-container">
                     {
                         <Youtube opts={youtubeOption} />
                     }
+                    </div>
                 </div>
             </div>
 

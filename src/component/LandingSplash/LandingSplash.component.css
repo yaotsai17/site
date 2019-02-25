@@ -1,5 +1,4 @@
 .landing-splash-container {
-    min-width: 600px;
     margin-top: 64px;
     display: flex;
     flex-direction: row;
@@ -20,7 +19,6 @@
 .intro-text {
     color: white;
     white-space: nowrap;
-    min-width: 200px;
     align-self: center;
     flex-basis: 30%;
     font-family: sans-serif;

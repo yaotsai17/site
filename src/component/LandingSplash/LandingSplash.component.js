@@ -10,7 +10,7 @@ class LandingSplash extends Component {
         return (
             <div className="landing-splash-container">
                 <div className="intro-image">
-                    <img src={IntroImage} alt="Yao's name in Chinese"></img>
+                    <img style={{maxWidth: "100vw"}} src={IntroImage} alt="Yao's name in Chinese"></img>
                 </div>
                 <div className="intro-text">
                     <h1 className="intro-text-title">Yao</h1><h4 className="intro-text-subtitle"> /you/ <i>noun</i></h4>
