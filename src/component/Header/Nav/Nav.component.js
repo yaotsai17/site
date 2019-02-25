@@ -14,7 +14,7 @@ class Nav extends React.Component {
                 <div className='nav-item'><Link to="intro" spy={true} smooth={true} offset={-64} duration={500}>Intro</Link></div>
                 <div className='nav-item'><Link to="exp" spy={true} smooth={true} offset={-64} duration={500}>Experience</Link></div>
                 <div className='nav-item'><Link to="edu" spy={true} smooth={true} offset={-64} duration={500}>Education</Link></div>
-                <div className='nav-item'><Link to="contact" spy={true} smooth={true} offset={-64} duration={500}>Contact</Link></div>
+                {/* <div className='nav-item'><Link to="contact" spy={true} smooth={true} offset={-64} duration={500}>Contact</Link></div> */}
             </div>
         </div>
     }

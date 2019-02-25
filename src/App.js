@@ -25,11 +25,11 @@ class App extends Component {
                 <Element name="edu">
                     <EducationSplash />
                 </Element>
-                <Element name="contact">
+                {/* <Element name="contact">
                     <div className="mail-form-container">
                         
                     </div>
-                </Element>
+                </Element> */}
             </div>
         );
     }
